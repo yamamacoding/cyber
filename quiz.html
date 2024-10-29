@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Quiz</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">
+            <h4>IRS Cybersecurity Risk</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="framework.html">Framework</a></li>
+            <li><a class="active" href="quiz.html">Quiz</a></li>
+        </ul>
+        <form class="search-form" action="#" method="get">
+            <input type="text" placeholder="Search..." aria-label="Search" />
+        </form>
+    </nav>
+
+    <div class="body-text">
+      <h1>Assessment Quiz!</h1>
+  </div>
+
+  <!-- Placeholder for the quiz questions -->
+  <div class="questions"></div>
+
+  <!-- Placeholder for the results -->
+  <div class="results" style="display: none;">
+      <h2>Quiz Results</h2>
+      <p>Total Questions: <span id="total"></span></p>
+      <p>Correct Answers: <span id="correct"></span></p>
+  </div>
+
+  <!-- Button to restart the quiz -->
+  <button id="restart" style="display: none;">Restart Quiz</button>
+
+    <!-- Include your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
