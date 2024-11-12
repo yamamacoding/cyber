@@ -2,67 +2,96 @@
 
 <html lang="en">
 
-  <head>
+<head>
 
     <meta charset="UTF-8" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+          rel="stylesheet" />
 
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+    <link rel="stylesheet" href= "style.css" />
 
-      rel="stylesheet"
+    <title>About the IRS</title>
 
-    />
+</head>
 
-    <link rel="stylesheet" href="../style.css" />
-
-    <title>About</title>
-
-  </head>
-
-  <body>
+<body>
 
     <nav>
+        <!-- Left Side: Dropdown Menu -->
+        <div class="dropdown">
+            <button class="dropbtn">
+                <div class="hamburger-icon">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </button>
+            <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About the IRS</a>
+                <a href="aboutCybersecurity.html"> About Cybersecurity</a>
+                <a href="framework.html">Framework</a>
+                <a href="quiz.html">Quiz</a>
+            </div>
+        </div>
 
-      <div class="heading">
+        <!-- Center: Title IRS CRA -->
+        <div class="heading">
+            <h4>IRS CRA</h4>
+        </div>
 
-        <h4>IRS Cybersecurity Risk</h4>
-
-      </div>
-
-      <ul class="nav-links">
-
-        <li><a href="../index.html">Home</a></li>
-
-        <li><a class="active" href="about.html">About</a></li>
-
-        <li><a href="framework.html">Framework</a></li>
-
-        <li><a href="quiz.html">Quiz</a></li>
-
-      </ul>
-
-      <form class="search-form" action="#" method="get">
-        <input type="text" placeholder="Search..." aria-label="Search" />
-      </form>
-      
-
+        <!-- Right Side: Search Bar -->
+        <form class="search-form" action="#" method="get">
+            <input type="text" placeholder="Search..." aria-label="Search" />
+        </form>
     </nav>
 
-    <div class="body-text">
-      <h1>About the IRS</h1>
-      <p>The U.S. Department of the Treasury oversees the management of the U.S. government’s finances and helps to set fiscal policy.
-        The department also collects revenue in the form of taxes via the Internal Revenue Service and raises funds with the sale of government securities. 
-        Spending at the national level from these sources can influence the direction and strength of the economy. </p>
-        
-      <p>The Treasury Department’s importance is similar to that of the Federal Reserve, which oversees monetary policy and aims to keep inflation under control and maximize employment. 
-        One of the Treasury Department’s stated missions is “to maintain a strong economy and create economic and job opportunities.” 
-        The department—which operates as part of the executive branch of government—often works hand-in-hand with the Fed to ensure that the U.S. economy is on sound footing.</p>
-     
-      </div>
+    <!-- New Cybersecurity Topics Dropdown Menu Right Below -->
+    <div class="dropdown-menu-secondary">
+        <button class="dropbtn-secondary">
+            About the IRS
+        </button>
+        <div class="dropdown-content-secondary">
+            <a href="currentRiskAssessment.html">The IRS's Current Risk Assessment</a>
+            <a href="irsBreaches.html">IRS Breaches</a>
+            <a href="about.html">Back to About Page</a>
 
-  </body>
+        </div>
+    </div>
+
+    <div class="body-text">
+        <h1>About the IRS</h1>
+        <p>
+            The U.S. Department of the Treasury oversees the management of the U.S. government’s finances and helps to set fiscal policy.
+            The department also collects revenue in the form of taxes via the Internal Revenue Service and raises funds with the sale of government securities.
+            Spending at the national level from these sources can influence the direction and strength of the economy.
+        </p>
+
+        <p>
+            The Treasury Department’s importance is similar to that of the Federal Reserve, which oversees monetary policy and aims to keep inflation under control and maximize employment.
+            One of the Treasury Department’s stated missions is “to maintain a strong economy and create economic and job opportunities.”
+            The department—which operates as part of the executive branch of government—often works hand-in-hand with the Fed to ensure that the U.S. economy is on sound footing.
+        </p>
+
+        <h1>What Are the Treasury Department's Responsibilities?</h1>
+        <p>
+            The Treasury Department’s primary responsibilities range from managing the federal government’s finances to overseeing currency and coinage to collecting taxes and enforcing the 
+            nation’s finance and tax laws. The Treasury Department lists its basic functions as follows:
+        </p>
+        <ul>
+            <li>Economic, international economic, and fiscal policy</li>
+            <li>Government accounting, cash, and debt management</li>
+            <li>Promulgation and enforcement of tax and tariff laws</li>
+            <li>Assessment and collection of internal revenue</li>
+            <li>Production of coin and currency</li>
+            <li>Supervision of national banks and thrifts</li>
+        </ul>
+
+    </div>
+
+</body>
 
 </html>
