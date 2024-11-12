@@ -79,6 +79,26 @@ const quizData = [
         ],
     },
 
+    {
+        question: "Are privileged accounts monitored and reviewed for unusual activity?",
+        answers: [
+            { text: "No, but considering it", correct: false },
+            { text: "No", correct: false },
+            { text: "Monitored occasionally", correct: false },
+            { text: "Yes, continuously monitored", correct: true },
+        ],
+    },
+
+    {
+        question: "How frequently are user access permissions audited?",
+        answers: [
+            { text: "Quartely", correct: true },
+            { text: "Annually", correct: false },
+            { text: "Monthly", correct: false },
+            { text: "Rarely", correct: false },
+        ],
+    },
+
 
    
 
