@@ -23,12 +23,65 @@ const quizData = [
     {
         question: "How often does senior leadership review cybersecurity risks and strategies?",
         answers: [
-            { text: "Monthly", correct: true },
-            { text: "Quartely", correct: false },
+            { text: "Monthly", correct: false },
+            { text: "Quartely", correct: true },
             { text: "Annually", correct: false },
             { text: "Rarely or Never", correct: false },
         ],
     },
+    {
+        question: "Are cybersecurity policies regularly updated and communicated to all staff?",
+        answers: [
+            { text: "Yes, annually", correct: false },
+            { text: "Occassionally", correct: false },
+            { text: "Yes, reviewed and communicated quarterly", correct: true },
+            { text: "No formal process", correct: false },
+        ],
+    },
+
+    {
+        question: "Does your organization quantify risk levels based on threat, vulnerability, and potential impact?",
+        answers: [
+            { text: "Yes, but informally", correct: false },
+            { text: "Yes, using a formal methodology", correct: true },
+            { text: "No, but planning to implement", correct: false },
+            { text: "No", correct: false },
+        ],
+    },
+
+    {
+        question: "How often is your risk assessment updated?",
+        answers: [
+            { text: "Quartely", correct: true },
+            { text: "Annually", correct: false },
+            { text: "Monthly", correct: false },
+            { text: "Rarely", correct: false },
+        ],
+    },
+
+    {
+        question: "Is there a clear prioritization of risks based on assessed impact and likelihood?",
+        answers: [
+            { text: "Yes, fully established", correct: true },
+            { text: "Yes, partially established", correct: false },
+            { text: "No, but planning to implement", correct: false },
+            { text: "No", correct: false },
+        ],
+    },
+
+    {
+        question: "Do you maintain a contact list for immediate response to cyber incidents?",
+        answers: [
+            { text: "No, but considering it", correct: false },
+            { text: "No", correct: false },
+            { text: " Yes, but not regularly updated", correct: false },
+            { text: "Yes, updated regularly", correct: true },
+        ],
+    },
+
+
+   
+
 ];
 
 // Select the HTML elements
